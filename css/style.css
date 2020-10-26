@@ -1,0 +1,127 @@
+body {
+  font-style: sans-serif;
+}
+
+.mr_20 {
+  margin-right: 20px;
+}
+
+.pr_1 {
+  padding-right: 1rem;
+}
+
+.pl_1 {
+  padding-left: 1rem;
+}
+
+header {
+  height: 500px;
+  color: BLACK;
+  position: relative;
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header a {
+  color: black;
+}
+
+nav {
+  height: 80px;
+  line-height: 80px;
+  background: white
+}
+
+nav a {
+  padding: 0 10px;
+}
+
+.header_logo>img {
+  height: 150px
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.list_inline li, .header_langs li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_menu, .header_langs {
+  font-size: 0.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header_langs li:not(:last-child) a {
+  border-right: 1px solid white;
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white
+}
+
+.hero_text h1 {
+  font-size: 2.5rem;
+}
+
+.hero_text p {
+  margin: 20px 0 30px 0;
+}
+
+.hero_text img {
+  height: 50px;
+}
+
+.store {
+  width: 25%
+}
+
+.header_logo {
+  text-align: center;
+}
+
+.logo_img {
+  width: 35%
+}
+
+/ header / / main / #models {
+  padding: 2rem;
+}
+
+#models .card {
+  text-align: center;
+  background-color: #fafafa;
+  margin-top: 10%;
+  width: 95%;
+  margin-bottom: 10%;
+}
+
+#models .card h2 {
+  padding-top: 80px;
+}
+
+#models .card img {
+  max-width: 100%;
+}
+
+.old_man {
+  height: 500px;
+  background-image: url(../img/oldman.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/ main */
