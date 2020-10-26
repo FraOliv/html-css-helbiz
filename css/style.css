@@ -126,8 +126,20 @@ margin-bottom: 10%;
   background-size: cover;
 }
 
-#smartphone{
-  height: 250px
+
+#smartphone > div > div > div:nth-child(2) > img{
+  width: 250PX;
+  height: 100%;
+  transform: translate(30%, -75%);
+  MARGIN-BOTTOM: -75%;
+}
+#smartphone > div > div {
+  margin-top: 5%
+}
+
+}
+#smart_mobility > div > div > div{
+  height: 100%
 }
 
 
