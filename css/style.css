@@ -127,7 +127,7 @@ margin-bottom: 10%;
 }
 
 
-#smartphone > div > div > div:nth-child(2) > img{
+.iphone{
   width: 250PX;
   height: 100%;
   transform: translate(30%, -75%);
@@ -137,11 +137,47 @@ margin-bottom: 10%;
   margin-top: 5%
 }
 
+#smart_mobility> .container >.row{
+  height: 300px;
+  background-image: url(../img/scooter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin-bottom: 1%;
+
 }
-#smart_mobility > div > div > div{
-  height: 100%
+#smart_mobility > div > div > div {
+    width: 50.5%;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.app{
+  background: #394C5D;
+  text-align: center;
+  color: white
 }
 
 
+
+#app > div > div > div > h2,h3,.phone{
+  margin-top: 5%
+}
+.find_us{
+  height: 579px;
+  background-image: url(../img/city.7c8c928.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white
+}
+#app > div > div > div.col-lg-6.app > .card{
+  width: 100%;
+  background: #394C5D;
+  margin-bottom: 5%
+}
+#app>.container>.row>.col-lg-6{
+    border: 5px solid white;
+}
 
 / main */
