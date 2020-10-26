@@ -14,6 +14,7 @@ body {
   padding-left: 1rem;
 }
 
+
 header {
   height: 500px;
   color: BLACK;
@@ -94,7 +95,7 @@ h1 {
 }
 
 .logo_img {
-  width: 35%
+  width: 20%
 }
 
 / header / / main / #models {
@@ -179,6 +180,17 @@ margin-bottom: 10%;
 }
 #app>.container>.row>.col-lg-6{
     border: 5px solid white;
+}
+#family{
+  height: 200px;
+  background: grey;
+  text-align: center;
+}
+#family>.row>.col-lg-12>h2{
+
+  background: white;
+  width: 8%;
+  margin-left: 45%
 }
 
 / main */
