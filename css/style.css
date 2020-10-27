@@ -188,6 +188,7 @@ margin-bottom: 10%;
   height: 200px;
   background: grey;
   text-align: center;
+  margin-bottom:15px
 }
 #family>.row>.col-lg-12>h2{
 
@@ -199,9 +200,11 @@ margin-bottom: 10%;
 
 
 footer {
+  margin-top:25px
   height: 500px;
   color: white;
   background-color: black;
+  padding: 2%
 }
 footer ul li {
   list-style: none;
