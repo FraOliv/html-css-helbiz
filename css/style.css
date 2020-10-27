@@ -228,6 +228,7 @@ footer .col_12_lg.loghi {
 }
 
 .footer_logo{
+  width: 35%;
   background: white;
   color: white;
 }
